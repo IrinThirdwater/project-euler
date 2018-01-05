@@ -7,7 +7,7 @@
 public class Problem4 {
 
     // Prints 906609, the solution to problem 4 of Project Euler.
-    public static void main(String[] args) {
+    public static void main (String[] args) {
         int a = 999;
         int b = 999;
         int largestProduct = 1;
@@ -28,7 +28,7 @@ public class Problem4 {
     /**
      * Check if the number is a palindrome.
      */
-    public static boolean isPalindrome(int n) {
+    public static boolean isPalindrome (int n) {
         String s = Integer.toString(n);
         return s.equals(new StringBuffer(s).reverse().toString());
     }
