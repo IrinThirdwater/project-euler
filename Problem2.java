@@ -7,7 +7,7 @@
 public class Problem2 {
 
     // Prints 4613732, the solution to problem 2 of Project Euler.
-    public static void main(String[] args) {
+    public static void main (String[] args) {
         int upperBound = 4000000;
         int sumOfEvenFib = 0;
 
