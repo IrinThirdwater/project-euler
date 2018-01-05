@@ -8,7 +8,7 @@ public class Problem3 {
 
     // Prints 6857, the solution to problem 3 of Project Euler.
     // The algorithm is from this StackOverflow answer: https://stackoverflow.com/a/412942/9147640
-    public static void main(String[] args) {
+    public static void main (String[] args) {
         long n = 600851475143 L;
         //long n = 1234567898766700L; // = 2 * 2 * 5 * 5 * 12345678987667
 
