@@ -4,7 +4,7 @@
  *
  * https://projecteuler.net/problem=10
  */
-public class Problem10 {
+public class Problem010 {
 
     // Prints 142913828922, the solution to problem 10 of Project Euler.
     public static void main (String[] args) {
