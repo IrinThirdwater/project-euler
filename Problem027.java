@@ -31,18 +31,12 @@ public class Problem027 {
      * Check if the number is prime.
      */
     public static boolean isPrime (int x) {
-        if (x < 2) {
-            return false;
-        }
+        if (x < 2) return false;
         if (x == 2) return true;
         int upperBound = (int) Math.ceil(Math.sqrt(x));
         for (int i = 3; i <= upperBound; i++) {
-            if (x % i == 0) {
-                break;
-            }
-            if (i == upperBound) {
-                return true;
-            }
+            if (x % i == 0) break;
+            if (i == upperBound) return true;
         }
         return false;
     }
