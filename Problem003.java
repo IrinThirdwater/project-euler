@@ -4,7 +4,7 @@
  *
  * https://projecteuler.net/problem=3
  */
-public class Problem3 {
+public class Problem003 {
 
     // Prints 6857, the solution to problem 3 of Project Euler.
     // The algorithm is from this StackOverflow answer: https://stackoverflow.com/a/412942/9147640
