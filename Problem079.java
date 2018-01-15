@@ -4,7 +4,7 @@
  *
  * https://projecteuler.net/problem=79
  */
-public class Problem048 {
+public class Problem079 {
 
     // Prints 73162890, the solution to problem 79 of Project Euler.
     public static void main (String[] args) {
